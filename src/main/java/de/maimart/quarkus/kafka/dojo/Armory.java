@@ -1,5 +1,6 @@
 package de.maimart.quarkus.kafka.dojo;
 
+import javax.enterprise.context.ApplicationScoped;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,6 @@ public class Armory {
     }
 
     public String getHerosWeapon(String hero) {
-        return swordsOfHeros.getOrDefault(hero, null);
+        return swordsOfHeros.getOrDefault(hero, "Dagger");
     }
 }
