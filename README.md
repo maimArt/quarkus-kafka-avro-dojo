@@ -1,1 +1,1 @@
-# quarkus-kafka-avro-template
+# quarkus-kafka-avro-dojo

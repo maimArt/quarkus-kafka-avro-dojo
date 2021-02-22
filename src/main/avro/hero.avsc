@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "namespace": "de.maimart.avro",
+  "name": "Hero",
+  "fields": [
+    {
+      "name": "prename",
+      "type": "string"
+    },
+    {
+      "name": "surname",
+      "type": "string"
+    },
+    {
+      "name": "sword",
+      "type": "string"
+    }
+  ]
+}

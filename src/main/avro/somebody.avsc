@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "de.maimart.avro",
+  "name": "Somebody",
+  "fields": [
+    {
+      "name": "prename",
+      "type": "string"
+    },
+    {
+      "name": "surname",
+      "type": "string"
+    }
+  ]
+}
