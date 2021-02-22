@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.*;
 class HeroMakerTest {
 
     static String SOMEBODY_TOPIC = "reactive.somebodies";
-    static String HEROS_TOPIC = "reactive.heros";
+    static String HEROS_TOPIC = "reactive.heroes";
 
     @Test
     void somebodiesAreMadeToHeros() {

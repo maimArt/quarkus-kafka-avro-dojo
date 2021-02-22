@@ -15,7 +15,8 @@ public class Armory {
         this.swordsOfHeros.put("Eduard Stark", "Ice");
     }
 
-    public String getHerosWeapon(String hero) {
-        return swordsOfHeros.getOrDefault(hero, "Dagger");
+    public String getHerosWeapon(String prename, String surname) {
+        String completeName = String.format("%s %s", prename, surname);
+        return swordsOfHeros.getOrDefault(completeName, "Dagger");
     }
 }
