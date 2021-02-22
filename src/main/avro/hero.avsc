@@ -13,7 +13,10 @@
     },
     {
       "name": "sword",
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
     }
   ]
 }
