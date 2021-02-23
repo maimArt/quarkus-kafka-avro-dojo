@@ -4,6 +4,7 @@ import javax.enterprise.context.ApplicationScoped;
 import java.util.HashMap;
 import java.util.Map;
 
+@ApplicationScoped
 public class Armory {
 
     private final Map<String, String> swordsOfHeros;
