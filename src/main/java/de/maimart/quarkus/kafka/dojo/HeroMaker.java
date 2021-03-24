@@ -13,8 +13,8 @@ import javax.inject.Inject;
 
 public class HeroMaker {
 
-    public static String SOMEBODY_TOPIC = "streams.source-topic";
-    public static String HEROS_TOPIC = "streams.target-topic";
+    public static String SOMEBODY_TOPIC = "streams.somebody-topic";
+    public static String HEROS_TOPIC = "streams.hero-topic";
     private final Armory armory;
     private final AvroSerdeFactory avroSerdeFactory;
 
